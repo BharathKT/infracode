@@ -11,3 +11,5 @@ module "compute" {
   web_sg        = module.networking.web_sg
   public_subnet = module.networking.public_subnet
 }
+
+# --- root/main.tf ---
