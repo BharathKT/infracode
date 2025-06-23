@@ -12,3 +12,4 @@ module "compute" {
   public_subnet = module.networking.public_subnet
 }
 # --- root/main.tf ---
+##
